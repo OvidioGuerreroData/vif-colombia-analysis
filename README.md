@@ -2,7 +2,7 @@
 
 ## **VIOLENCIA INTRAFAMILIAR EN COLOMBIA.**
 
-**Autor:** Andres Guerra<br>
+**Autor:** Ovidio Antonio Guerreo Mosquera<br>
 **Fecha:** 16/04/2025<br>
 **Dataset:** Reporte Delito Violencia Intrafamiliar Policía Nacional<br>
 **Registros:** ~ 661K filas<br>
@@ -52,14 +52,14 @@ La VIF es un problema de seguridad ciudadana y salud publica.
 
 # **6. COMO REPRODUCIR EL ANALISIS.**
 
-## **6.1. Clone el repositorio:
+## **6.1. Clone el repositorio:**
 
 ```bash
 git clone https://github.com/Su_Usuario/vif-colombia-analysis.git
 cd vif-colombia-analysis
 ```
 
-## 6.2. Cree el entorno virtual e instale las dependencias:
+## **6.2. Cree el entorno virtual e instale las dependencias:**
 ```bash
 python -m venv .venv
 source .venv/bin/activate        # Ejecute esta linea si su sistema operativo es Mac o Linux
@@ -67,7 +67,7 @@ source .venv/bin/activate        # Ejecute esta linea si su sistema operativo es
 pip install -r requirements.txt
 ```
 
-## 6.3. Descargue el dataset:
+## **6.3. Descargue el dataset:**
 El archivo de datos no esta incluido en el repositorio por su tamaño.
 
 Descarguelo desde el portal oficial de datos abiertos de Colombia:
@@ -78,7 +78,7 @@ Una vez descargado, colócalo en:
 `data/raw/Reporte_Delito_Violencia_Intrafamiliar_Policía_Nacional.csv`
 
 
-## 6.4. Ejecute los notebooks en el siguiente orden:
+## **6.4. Ejecute los notebooks en el siguiente orden:**
 ```
 notebooks/01_exploracion.ipynb
 notebooks/02_limpieza.ipynb
